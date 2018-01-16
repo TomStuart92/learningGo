@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func arrayExamples() {
+func arrays() {
 	var x [5]int
 	x[4] = 100
 

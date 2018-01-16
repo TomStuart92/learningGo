@@ -2,14 +2,15 @@ package main
 
 import "fmt"
 
-func average() {
-	x := [5] float64{98, 93, 77, 82, 83}
-	var total float64 = 0
-
-	for _, value := range x {
+func avg(xs []float64) float64 {
+	var total float64
+	for _, value := range xs {
 		total += value
 	}
+	return total / float64(len(xs))
+}
 
-	average := total / float64(len(x))
-	fmt.Println(average)
+func average() {
+	x := []float64{98, 93, 77, 82, 83}
+	fmt.Println(avg(x))
 }

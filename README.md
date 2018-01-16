@@ -4,4 +4,4 @@ We're looking at using Go for a couple of microservices at work. This repo conta
 
 ## Resources
 
-[Golang Book](https://www.golang-book.com/books/intro/3)
+[Golang Book](https://www.golang-book.com/books/intro)

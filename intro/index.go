@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
-func main() {
+func index() {
 	// fmt.Println("### HELLO WORLD ###")
 	// helloWorld()
 
@@ -21,12 +19,6 @@ func main() {
 	// fmt.Println("### Switch ###")
 	// switchExample(1)
 
-	// fmt.Println("### FizzBuzz ###")
-	// fizzBuzz(1)
-	// fizzBuzz(3)
-	// fizzBuzz(5)
-	// fizzBuzz(15)
-
 	// fmt.Println("### Arrays ###")
 	// arrayExamples()
 
@@ -39,12 +31,6 @@ func main() {
 	// fmt.Println("### Maps ###")
 	// maps()
 
-	fmt.Println("### smallest int ###")
-	x := []int{
-		48,96,86,68,
-		57,82,63,70,
-		37,34,83,27,
-		19,97, 9,17,
-	  }
-	smallestInt(x)
+	// fmt.Println("### evens ###")
+	// evens()
 }
